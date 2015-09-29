@@ -48,6 +48,17 @@ function createServer(options) {
       trapExceptions: false
     }));
 
+    server.use(function crossOrigin(req,res,next){
+      res.header("Access-Control-Allow-Origin", "*");
+      res.header("Access-Control-Allow-Headers", "X-Requested-With");
+      return next();
+    });
+
+    server.pre(function (request, response, next) {
+        request.log.info({ req: request }, 'REQUEST');
+        next();
+    });
+
     // Register a default '/' handler
     server.get('/', function root(req, res, next) {
         var routes = [

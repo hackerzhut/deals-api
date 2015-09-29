@@ -1,0 +1,15 @@
+{
+  "logfile": null,
+  "logAllRequests": false,
+  "logLevel": "debug",
+  "logAudit": false,
+  "showStackTrace": false,
+  "publicUrl": "http://localhost:8080",
+  "serverPort": 8080,
+  "corsOrigins": ["*"],
+  "shutDownTimeout": 1000,
+  "defaultCacheMaxAge": 10,
+  "news" : {
+    "url" : "https://d2r5tjv0k7iblp.cloudfront.net/api/documents/search?page=1&pageSize=20&ref=VgoXih4AADYA9D56&q=%5B%5B%3Ad%20%3D%20any(document.type%2C%20%5B%22template-seo%22%2C%22template-info%22%2C%22template-promotion%22%2C%22template-aggregator%22%5D)%5D%5B%3Ad%20%3D%20at(document.tags%2C%20%5B%22blog%2Fnfl%2Fpreviews%22%5D)%5D%5D"
+  }
+}

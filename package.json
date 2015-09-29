@@ -1,0 +1,35 @@
+{
+  "name": "hackday-backend",
+  "version": "1.0.0",
+  "description": "Backend for Playstore App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js | bunyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackerzhut/hack-backend.git"
+  },
+  "keywords": [
+    "api",
+    "tabcorp",
+    "backend",
+    "playstore",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackerzhut/hack-backend/issues"
+  },
+  "homepage": "https://github.com/hackerzhut/hack-backend#readme",
+  "dependencies": {
+    "bunyan": "0.21.1",
+    "config": "^1.16.0",
+    "posix-getopt": "1.0.0",
+    "request": "^2.64.0",
+    "restify": "^4.0.3",
+    "seppuku": "~0.1.6",
+    "vasync": "^1.6.3"
+  }
+}

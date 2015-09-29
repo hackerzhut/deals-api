@@ -4,7 +4,7 @@
   "description": "Backend for Playstore App",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js | bunyan"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,10 @@
     "playstore",
     "api"
   ],
-  "author": "",
+  "author": "Saravana",
+  "engines": {
+    "node": "0.10.x"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hackerzhut/hack-backend/issues"
